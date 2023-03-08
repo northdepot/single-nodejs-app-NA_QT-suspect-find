@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: single-nodejs-app
     spec:
       containers:
-      - image: quay.io/jduimovich0/single-nodejs-app
+      - image: quay.io/jduimovich0/single-nodejs-app@sha256:21c5489df9cb7d24330c4efdcc54a8f3a619a07bdc3647ccf080bdb38ac0936e
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
